@@ -16,6 +16,7 @@ public class Test {
     public static void main(String args[]) throws IOException {
         org.apache.ibatis.logging.LogFactory.useLog4JLogging();
 
+        String a = "test";
         String resource = "mybatis-config.xml";
         InputStream reader = Resources.getResourceAsStream(resource);
         Properties prop = new Properties();
